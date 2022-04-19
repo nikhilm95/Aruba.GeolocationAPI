@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "985049fb-698c-4732-876b-48695fac8711",
+		"name": "Aruba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST APIScanData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"apscan_data\": [\r\n        {\r\n            \"band\": \"2.4\",\r\n            \"bssid\": \"9c:b2:b2:66:c1:be\",\r\n            \"channel\": \"5\",\r\n            \"frequency\": 2432,\r\n            \"rates\": \"1.0 - 135.0 Mbps\",\r\n            \"rssi\": -35,\r\n            \"security\": \"wpa-psk\",\r\n            \"ssid\": \"HUAWEI-B315-C1BE\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"HUAWEI TECHNOLOGIES CO.,LTD\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"2.4\",\r\n            \"bssid\": \"84:78:ac:b9:76:19\",\r\n            \"channel\": \"1\",\r\n            \"frequency\": 2412,\r\n            \"rates\": \"6.5 - 270.0 Mbps\",\r\n            \"rssi\": -56,\r\n            \"security\": \"wpa-eap\",\r\n            \"ssid\": \"1 Telkom Connect\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Cisco Systems, Inc\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"2.4\",\r\n            \"bssid\": \"c0:a0:bb:c4:10:d6\",\r\n            \"channel\": \"1\",\r\n            \"frequency\": 2412,\r\n            \"rates\": \"1.0 - 54.0 Mbps\",\r\n            \"rssi\": -66,\r\n            \"security\": \"wpa-psk\",\r\n            \"ssid\": \"default\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"D-Link International\",\r\n            \"width\": \"40\"\r\n        },\r\n        {\r\n            \"band\": \"5.0\",\r\n            \"bssid\": \"84:78:ac:b9:76:16\",\r\n            \"channel\": \"56\",\r\n            \"frequency\": 5280,\r\n            \"rates\": \"6.5 - 270.0 Mbps\",\r\n            \"rssi\": -82,\r\n            \"security\": \"wpa-eap\",\r\n            \"ssid\": \"1 Telkom Connect\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Cisco Systems, Inc\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"5.0\",\r\n            \"bssid\": \"e8:1d:a8:28:a6:6c\",\r\n            \"channel\": \"36\",\r\n            \"frequency\": 5180,\r\n            \"rates\": \"6.0 - 866.7 Mbps\",\r\n            \"rssi\": -65,\r\n            \"security\": \"open\",\r\n            \"ssid\": \"@VAST\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Ruckus Wireless\",\r\n            \"width\": \"80\"\r\n        },\r\n        {\r\n            \"band\": \"2.4\",\r\n            \"bssid\": \"e8:1d:a8:28:a6:68\",\r\n            \"channel\": \"8\",\r\n            \"frequency\": 2447,\r\n            \"rates\": \"6.0 - 135.0 Mbps\",\r\n            \"rssi\": -52,\r\n            \"security\": \"open\",\r\n            \"ssid\": \"@VAST\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Ruckus Wireless\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"2.4\",\r\n            \"bssid\": \"e8:1d:a8:68:a6:68\",\r\n            \"channel\": \"8\",\r\n            \"frequency\": 2447,\r\n            \"rates\": \"6.0 - 135.0 Mbps\",\r\n            \"rssi\": -53,\r\n            \"security\": \"open\",\r\n            \"ssid\": \"McDonalds@VAST\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Ruckus Wireless\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"2.4\",\r\n            \"bssid\": \"84:78:ac:b9:76:1a\",\r\n            \"channel\": \"1\",\r\n            \"frequency\": 2412,\r\n            \"rates\": \"6.5 - 270.0 Mbps\",\r\n            \"rssi\": -57,\r\n            \"security\": \"open\",\r\n            \"ssid\": \"1 Telkom Guest\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Cisco Systems, Inc\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"5.0\",\r\n            \"bssid\": \"84:78:ac:b9:76:15\",\r\n            \"channel\": \"56\",\r\n            \"frequency\": 5280,\r\n            \"rates\": \"6.5 - 270.0 Mbps\",\r\n            \"rssi\": -82,\r\n            \"security\": \"open\",\r\n            \"ssid\": \"1 Telkom Guest\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Cisco Systems, Inc\",\r\n            \"width\": \"20\"\r\n        },\r\n        {\r\n            \"band\": \"5.0\",\r\n            \"bssid\": \"e8:1d:a8:68:a6:6c\",\r\n            \"channel\": \"36\",\r\n            \"frequency\": 5180,\r\n            \"rates\": \"6.0 - 866.7 Mbps\",\r\n            \"rssi\": -66,\r\n            \"security\": \"open\",\r\n            \"ssid\": \"McDonalds@VAST\",\r\n            \"timestamp\": 1522886457.0,\r\n            \"vendor\": \"Ruckus Wireless\",\r\n            \"width\": \"80\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

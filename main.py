@@ -44,4 +44,4 @@ def update_record():
     return jsonify({"results": new_record})
 
 
-app.run(host="0.0.0.0", debug=os.environ.get("DEBUG", True))
+#app.run(host="0.0.0.0", debug=os.environ.get("DEBUG", True))
